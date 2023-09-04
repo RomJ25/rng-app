@@ -1,6 +1,9 @@
 export function randomFunc(max, min) {
-    return Math.round(Math.random() * (max - min) - min)
-}
+    return (
+        <h1>{Math.round(Math.random() * (max - min) + min)}</h1>
+    );
+
+};
 
 
 
